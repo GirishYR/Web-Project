@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+
+#section7 {
+    height: 820px;
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section7>#sec7cntnr {
+    height: 650px;
+    width: 1140px;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    /* background-color: antiquewhite; */
+
+}
+
+.sec7cntnritems22>.sec7cntnritems21card2 {
+    background-color: #1c1c25;
+
+}
+
+.sec7cntnritems22>.sec7cntnritems21card2>.sec7cntnrcarditm2>ul>li {
+    color: #ffffff;
+}
+
+/*inner block one */
+#section7>#sec7cntnr>#sec7cntnritems1 {
+    height: 55px;
+    width: 100%;
+    /* border: 1px solid blue; */
+    font-family: 'MuseoModerno', cursive;
+    font-weight: 700;
+    color: #333333;
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* margin-top: -10px; */
+}
+
+
+
+/*inner block two */
+#section7>#sec7cntnr>#sec7cntnritems2 {
+    height: 575px;
+    width: 100%;
+    /* border: 1px solid;  */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+#section7>#sec7cntnr>#sec7cntnritems2>div {
+    width: 380px;
+    height: 575px;
+     /* border: 1px solid green;  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+/*CARD ONE DESIGN*/
+#section7>#sec7cntnr>#sec7cntnritems2>.sec7cntnritems21>.sec7cntnritems21card1 {
+    width: 350px;
+    height: 575px;
+    /* border: 1px solid; */
+    border-radius: 10px;
+    box-shadow: 0 0 5px #928888bf ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: #f8f9fa;
+}
+.sec7cntnrcarditm1 {
+    width: 350px;
+    height: 200px;
+    /* border: 1px solid blue;  */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    background-image: url(../resources/magicpattern-blob-1694325784814.png);
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sec7cntnrcarditm2 {
+    width: 350px;
+    height: 200px;
+    /* border: 1px solid blue;  */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.sec7cntnrcarditm3 {
+    width: 350px;
+    height: 50px;
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*CARD two DESIGN*/
+#section7>#sec7cntnr>#sec7cntnritems2>.sec7cntnritems22>.sec7cntnritems21card2 {
+    width: 350px;
+    height: 575px;
+    /* border: 1px solid; */
+    border-radius: 10px;
+    box-shadow: 0 0 5px #928888bf ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+
+
+/*/*CARD three DESIGN*/
+#section7>#sec7cntnr>#sec7cntnritems2>.sec7cntnritems23>.sec7cntnritems21card3 {
+    width: 350px;
+    height: 575px;
+    /* border: 1px solid; */
+    border-radius: 10px;
+    box-shadow: 0 0 5px #928888bf ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+
+/* card 1st section arrangement*/
+.sec7carditem1 {
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+    text-align: center;
+    /* border: 1px solid; */
+    color: #333333;
+}
+
+.sec7carditem2 {
+    font-family: 'MuseoModerno', cursive;
+    font-weight: 700;
+    color: #000000;
+    font-size: 48px;
+    text-align: center;
+    /* border: 1px solid; */
+    color: #111111;
+}
+
+.sec7carditem3 {
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    /* border: 1px solid; */
+    color: #111111;
+}
+
+.sec7cntnritems22>.sec7cntnritems21card2>.sec7cntnrcarditm1>.sec7card2item3 {
+    color: #ffffff;
+}
+
+.sec7cntnritems22>.sec7cntnritems21card2>.sec7cntnrcarditm1>.sec7card2item1 {
+    color: #ffffff;
+}
+
+.sec7cntnritems22>.sec7cntnritems21card2>.sec7cntnrcarditm1>.sec7card2item2 {
+    color: #ffffff;
+}
+
+/* card 2nd section arrangement*/
+.sec7cntnrcarditm2>ul {
+    height: 200px;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    align-items: first baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* border: 1px solid; */
+}
+
+.sec7cntnrcarditm2>ul>li {
+    width: 100%;
+    height: 25px;
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    color: #333333;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid; */
+    padding-left: 8px;
+    padding-right: 15px;
+}
+
+.sec7cntnrcarditm2>ul>li>i {
+    color: rgb(84, 222, 84);
+    font-size: 22px;
+}
+
+/* card section 3rd button*/
+.sec7cntnrcarditm3>.butt {
+    height: 50px;
+    width: 150px;
+    /* border: 2px solid black; */
+}
+
+.sec7cntnrcarditm3>.butt>button {
+    height: 50px;
+    width: 150px;
+    z-index: 2;
+    /*foant*/
+    font-size: large;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: #ffffff;
+    /*alignment*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    position: absolute;
+    border: 1px solid #000000;
+    border-radius: 25px;
+    transition-timing-function: linear;
+    transition-duration: 0.2;
+}
+
+.sec7cntnrcarditm3>.butt>div {
+    height: 50px;
+    width: 150px;
+    z-index: 1;
+    position: relative;
+    /* border: 2px solid black; */
+    border-radius: 25px;
+    transform: translate(5px, 5px);
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+
+.sec7cntnrcarditm3>.butt:hover div {
+    transform: translate(0px, 0px);
+}
+.sec7cntnrcarditm3>.butt:hover button{
+   border: 2px solid transparent;
+}

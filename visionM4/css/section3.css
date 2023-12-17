@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+
+#section3{
+    height: 310px;
+    width: 100%;
+    border: 1ps solid transparent; 
+    background-color: #1c1c25;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#section3>#section3contnr{
+    width: 1140px;
+    height: 150px;
+    /* border: 1px solid;  */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+#section3>#section3contnr>#sec3contnt{
+    width: 760px;
+    height: 150px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+
+}
+#section3>#section3contnr>#sec3contnt>#sec3contnt1{
+    height: 80px;
+    width: 760px;
+    font-family: 'MuseoModerno', cursive;
+    font-weight: 700;
+    font-size: 48px;
+    color: #f8f8f8;
+    text-align: left;
+    /* border: 1px solid; */
+}
+#section3>#section3contnr>#sec3contnt>#sec3contnt2{
+    height: 68px;
+    width: 760px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: #f8f8f8;
+    text-align: left;
+    /* border: 1px solid; */
+}
+#section3>#section3contnr>#sec3btn{
+    height: 75px;
+    width: 200px;
+    /* border: 2px solid ;   */
+    margin-left: 15px ;
+    justify-self: center;
+}
+
+#section3>#section3contnr>#sec3btn>button{
+    height: 75px;
+    width: 200px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #e1e1e1;
+    border: 3px solid #e1e1e1  ;
+    background-color: transparent;
+    border-radius: 45px;
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+}
+#section3>#section3contnr>#sec3btn>div{
+    height: 75px;
+    width: 200px; 
+    border: 2px solid ;
+    border-radius: 45px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    background-color: #ff9083;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+#section3>#section3contnr>#sec3btn:hover div{
+    top: 0px;
+    left: 0px;
+}

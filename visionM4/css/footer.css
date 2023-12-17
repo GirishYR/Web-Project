@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+
+footer {
+    height: 256px;
+    width: 100%;
+    background-color: #1C1C25;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    flex-direction: column;
+    gap: 88px;
+}
+
+/*footer item one allignment*/
+.footercntr1 {
+    height: 40px;
+    width: 1140px;
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footercntr1>div {
+    height: 40px;
+    width: 40px;
+    font-size: 16px;
+    border: 1px solid rgba(192, 178, 178, 0.744);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    border-radius: 50%;
+    color: #ffffff;
+    background-color: transparent;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+
+}
+
+.footercntr1>div:hover {
+    background-color: #26bacde9;
+    border: 1px solid rgba(231, 216, 216, 0.656);
+}
+
+
+
+/*footer item two allignment*/
+.footercntr2 {
+    height: 90px;
+    width: 1140px;
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column; 
+}
+
+.footercntr2>ul {
+    height: 47px;
+    width: 1140px;
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.footercntr2>ul>li{
+    height: 47px;
+    width: 120px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 31px;
+    list-style: none;
+    color: #ffffff;
+    /* border: 1px solid; */
+    text-align: center;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+
+}
+.footercntr2>ul>li:hover{
+    color: #ff9083;
+}
+.footercntr2>div{
+    height: 24px;
+    width: 1140px;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footercntr2>div>p{
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    line-height: 31px;
+    color: #c8c8c8;
+}

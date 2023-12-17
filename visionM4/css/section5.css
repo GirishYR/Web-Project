@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+#section5 {
+    height: 855px;
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section5>#sec5contr {
+    height: 720px;
+    width: 1350px;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#section5>#sec5contr>#sec5contrimg {
+    height: 720px;
+    width: 460px;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section5>#sec5contr>#sec5contrimg>img {
+    height: 660px;
+    width: 450px;
+    border-radius: 10px;
+    box-shadow: 0 0 1px
+}
+
+#section5>#sec5contr>#sec5contritems {
+    width: 880px;
+    height: 720px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section5>#sec5contr>#sec5contritems>#sec5contritemscontr {
+    height: 660px;
+    width: 850px;
+    /* border: 1px solid green; */
+    background-color: #1c1c25;
+    box-shadow: 0 0 1px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#section5>#sec5contr>#sec5contritems>#sec5contritemscontr>.sec5contritems1 {
+    height: 44px;
+    width: 800px;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#section5>#sec5contr>#sec5contritems>#sec5contritemscontr>.sec5contritems1>span {
+    height: 30px;
+    width: 130px;
+    border: 1px solid #a8aaf1;
+    background-color: #a8aaf1;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: normal;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Jost', sans-serif;
+}
+
+#section5>#sec5contr>#sec5contritems>#sec5contritemscontr>.sec5contritems2 {
+    height: 70px;
+    width: 800px;
+    /* border: 1px solid; */
+    font-family: 'MuseoModerno', cursive;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 48px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#section5>#sec5contr>#sec5contritems>#sec5contritemscontr>.sec5contritems3 {
+    height: 150px;
+    width: 800px;
+    /* border: 1px solid; */
+    font-family: 'Jost', sans-serif;
+    font-size: 21px;
+    font-weight: normal;
+    color: #c8c8c8;
+}
+
+#section5>#sec5contr>#sec5contritems>#sec5contritemscontr>.sec5contritems4 {
+    height: 140px;
+    width: 820px;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#section5>#sec5contr>#sec5contritems>#sec5contritemscontr>.sec5contritems5 {
+    height: 140px;
+    width: 820px;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+.sec5contritems411 {
+    height: 140px;
+    width: 375px;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec5contritems411>i {
+    height: 140px;
+    width: 56px;
+    color: #FF9083;
+    /* border: 1px solid; */
+    text-align: center;
+    font-size: xx-large;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.sec5contritems411>div{
+    width: 340px;
+    height:140px ;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+.sec5contritems411>div:hover .sec5contritems4211{
+    color:#FF9083 ;
+} 
+.sec5contritems411>div>div{
+    width: 340px;
+    /* border: 1px solid; */
+
+}
+.sec5contritems411>div>.sec5contritems4211{
+    height: 39px;
+    font-family: 'MuseoModerno', cursive;
+    font-weight: 700;
+    font-size: 26px;
+    color: #ffffff;
+}
+.sec5contritems411>div>.sec5contritems422{
+    height: 80px;
+    font-family: 'Jost', sans-serif;
+    font-size: 21px;
+    font-weight: 100;
+    color: #c8c8c8;
+}

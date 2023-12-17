@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+
+#footer1 {
+    height: 410px;
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1C1C25;
+}
+
+#footer1cntr {
+    width: 1140px;
+    height: 230px;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+/*container item img ang logo */
+.footer1cntr1 {
+    width: 1140px;
+    height: 170px;
+    /* border: 1px solid; */
+    font-family: 'MuseoModerno', cursive;
+    font-weight: 700;
+    color: #333333;
+    font-size: 26px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    flex-direction: column;
+    gap: 20px;
+    color: #FFFFFF;
+}
+
+/*media icons*/
+.footer1cntr2 {
+    width: 1140px;
+    height: 63px;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.footer1cntr2>div {
+    height: 63px;
+    width: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer1cntr21,
+.footer1cntr22,
+.footer1cntr23 {
+    height: 60px;
+    width: 60px;
+    /* border-radius: 50%;
+    border: 2px solid;
+    z-index: 1;
+    background-color: transparent; */
+}
+
+.footer1cntr2>div>div>span {
+    height: 60px;
+    width: 60px;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #fffffe;
+    z-index: 2;
+}
+
+.footer1cntr2>div>div>span>i {
+    z-index: 2;
+    z-index: 1;
+    position: absolute;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+/* .footer1cntr2>div>div {
+    border: 1px solid;
+} */
+.footer1cntr2>div>div>div {
+    /* border: 1px solid #0669d9; */
+    border-radius: 20px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    z-index: 1;
+    border-radius: 50%;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+
+.footer1cntr2>div>div>h5 {
+    font-family: 'Jost', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 31px;
+    color: #090a09;
+    color: #FFFFFF;
+}
+
+.footer1cntr2>div>div:nth-child(1) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer1cntr2>div>.footer1cntr21:nth-child(1)>div {
+    height: 60px;
+    width: 60px;
+
+    background-color:#6f42c1;
+}
+.footer1cntr2>div>.footer1cntr22:nth-child(1)>div {
+    height: 60px;
+    width: 60px;
+
+    background-color:#ff9083;
+}
+.footer1cntr2>div>.footer1cntr23:nth-child(1)>div {
+    height: 60px;
+    width: 60px;
+
+    background-color:#4fe8ffe1;
+}
+
+.footer1cntr2>div>div:nth-child(2) {
+    height: 63px;
+    width: 260px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 1px solid green; */
+}
+.footer1cntr2>div>.footermove:hover div{
+    top: 0px;
+    left: 0px;
+}
+.footer1cntr2>div>.footermove:hover span{
+    border: 1px solid transparent;
+}
